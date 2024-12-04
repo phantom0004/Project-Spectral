@@ -1,6 +1,10 @@
 # Project Spectral - Your AI Ally in the Shadows of Cybersecurity
 
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/5ec4304a-74b6-46f2-9b00-790a06d7800a" alt="project spectral logo" width="600" />
+</div>
+
+<div align="center">
     ----
     <i>Development has not yet begun</i>
     ----
