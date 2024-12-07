@@ -37,11 +37,13 @@ Project Spectral takes inspiration from Morpheus V2 (click [here](https://github
 
 The following features are currently planned for Project Spectral:
 
-1. AI Foundation (📍 Currently at this step)
+1. AI Foundation (✅ Stage Complete)
     - Leverage a pre-trained LLM as the foundational model, optimized for handling simple question-and-answer tasks with exceptional natural language processing (NLP) capabilities.
 
-2. Cybersecurity Focus
+2. Cybersecurity Focus (📍 Currently at this step)
     - Finetune the AI for ethical hacking tasks, emphasizing vulnerability assessment, exploitation and more.
+
+**➡️ Major repository update coming soon! An update will be sent out after this phase is completed.**
 
 3. Safe Terminal Access
     - Enable the AI to execute terminal commands securely with safeguards to ensure only authorized actions are performed.
