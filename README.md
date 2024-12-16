@@ -42,6 +42,7 @@ The following features are currently planned for Project Spectral:
 
 2. Cybersecurity Focus (📍 Currently at this step)
     - Finetune the AI for ethical hacking tasks, emphasizing vulnerability assessment, exploitation and more.
+    - This is a large milestone for project spectral - please refer to discussion 1 for more information.
 
 **➡️ Major repository update coming soon! An update will be sent out after this phase is completed.**
 
