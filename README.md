@@ -1,71 +1,87 @@
-# Project Spectral - Your AI Ally in the Shadows of Cybersecurity
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/5ec4304a-74b6-46f2-9b00-790a06d7800a" alt="project spectral logo" width="450" />
-</div>
-
-<div align="center">
-    ----
-    <i>Development in its very early stages</i>
-    ----
+<div align="center">  
+  <img src="https://github.com/user-attachments/assets/2dcd2002-1f7a-4de0-899f-43bd8b8af3af" alt="Project Spectral Logo" width="200" />
+  <h1 style="margin-top: 20px;">Project Spectral</h1>
+  <p style="font-size: 1.2em; color: #6c63ff;"><em>Your AI Ally in the Shadows of Cybersecurity</em></p>
+  
+  <!-- Centered Badges -->
+  <div align="center" style="margin-top: 10px;">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+    <img src="https://img.shields.io/github/stars/phantom0004/Project-Spectral.svg?style=social&label=Star" alt="GitHub Stars">
+    <img src="https://img.shields.io/github/issues/phantom0004/Project-Spectral.svg" alt="GitHub Issues">
+    <img src="https://img.shields.io/github/repo-size/phantom0004/Project-Spectral.svg" alt="Repo Size">
+  </div>
 </div>
 
 ## Overview 📝
 
-Project Spectral is an AI-driven hacking assistant designed to automate offensive security tasks. Project Spectral aims to streamline workflows for ethical hackers, making tasks like reconnaissance, exploitation, and post-exploitation more intuitive, efficient, and collaborative. This project will make hacking less isolating by offering an AI companion to support users through various stages of their journey—from recon to privilege escalation and beyond.
+**Project Spectral** is an **AI-driven hacking assistant** designed to **automate offensive security tasks**. Leveraging cutting-edge artificial intelligence, Project Spectral streamlines workflows for ethical hackers, making complex tasks like *reconnaissance*, *exploitation*, and *post-exploitation* more **intuitive**, **efficient**, and **collaborative**.
 
+### 🔍 Key Objectives
+
+- **Automation of Offensive Tasks:** Reduce manual effort by automating repetitive and time-consuming security tasks.
+- **Enhanced Workflow Efficiency:** Optimize the hacking process to allow ethical hackers to focus on strategic decision-making.
+- **Collaborative Environment:** Foster a more connected and supportive hacking community through AI-driven assistance.
+- **Comprehensive Support:** Provide guidance and support throughout various stages of ethical hacking, from initial reconnaissance to privilege escalation and beyond.
+
+### 🤖 AI Companion
+
+This project aims to make hacking **less isolating** by offering an **AI companion** that supports users through their hacking journey. Whether you're conducting a penetration test, participating in Capture The Flag (CTF) competitions, or engaging in offensive security operations, Project Spectral is here to assist you every step of the way.
 
 ---
 
-## Current Status 📊
+## What Project Spectral Includes 🧰
 
-Project Spectral has moved beyond the ideation phase and entered early development. A significant focus of the current phase is the implementation and testing of the base model for Spectral AI, ensuring it is adequate for simple Q&A tasks while balancing performance and storage efficiency. This involves rigorously evaluating the base model to ensure it meets these criteria as the foundation for more advanced capabilities.
+**Project Spectral** utilizes a **keyless API** to deliver a **Large Language Model (LLM)** on any system efficiently, without constraints or slowdowns. This capability allows Project Spectral to **utilize Mistral**, enabling it to process and analyze large datasets, extract valuable insights, and comprehend complex relationships and questions.
 
-Once the initial model has been finalized and deemed suitable, the next phase will involve exploring and curating datasets to fine-tune the AI for cybersecurity-specific tasks. This progression ensures that the foundational architecture is solid before expanding into more complex functionalities. Updates on the chosen model and progress in dataset integration will follow as the development evolves. Stay tuned for more insights as Spectral AI takes shape.
+**Project Spectral** builds upon **Mistral AI** by adding several enhancements, including:
 
+- 🖥️ **Graphical User Interface (GUI):** Provides a clean and intuitive view of the application.
+- 🌐 **Web Crawling:** Enables the AI to search and navigate through web links.
+- 🧠 **Persistent Memory:** Stores all previous messages, allowing for context retention.
+- 💻 **Terminal Integration:** Understands the user's machine and the outputs of commands.
+- 📄 **Code Extraction:** Extracts important elements like commands from outputs for later use.
+- 🤖 **Advanced Prompting:** Utilizes Mistral AI with various prompts, such as leveraging DAN (updated for Spectral) for payload generation or utilizing its knowledge base for text summaries.
+- 🚀 **And Much More!**
 
----
-
-## Inspiration 💡
-
-Project Spectral takes inspiration from Morpheus V2 (click [here](https://github.com/phantom0004/morpheus_IOC_scanner) to view the project), a tool that utilized AI for malware analysis by generating verdicts based on matched signatures. Building on this foundation, Project Spectral will push the boundaries by introducing offensive security capabilities tailored for ethical hackers, creating an intelligent AI chat assistant that operates at the forefront of cybersecurity innovation.
-
+These enhancements seamlessly integrate with **Spectral AI**, allowing it to leverage a comprehensive large language model without limitations, further customized for hacking tasks.
 
 ---
 
 ## Project Roadmap 🛤️
 
-The following features are currently planned for Project Spectral:
+**Project Spectral** is advancing through the following key phases to deliver a comprehensive AI-driven hacking assistant:
 
-1. AI Foundation (✅ Stage Complete)
-    - Leverage a pre-trained LLM as the foundational model, optimized for handling simple question-and-answer tasks with exceptional natural language processing (NLP) capabilities.
+1. **AI Foundation (✅ Completed)**
+   - **Implementation:** Deployed a pre-trained Large Language Model (LLM) optimized for question-and-answer tasks with robust natural language processing (NLP) capabilities.
 
-2. Cybersecurity Focus (📍 Currently at this step)
-    - Finetune the AI for ethical hacking tasks, emphasizing vulnerability assessment, exploitation and more.
-    - This is a large milestone for project spectral - please refer to discussion 1 for more information.
+2. **Feature Enhancements Implementation (📍 In Progress)**
 
-**➡️ Major repository update coming soon! An update will be sent out after this phase is completed.**
+| Feature                  | Description                                                                         |
+|--------------------------|-------------------------------------------------------------------------------------|
+| **Graphical User Interface (GUI)** | Developing a user-friendly interface for seamless interaction.            |
+| **Web Crawling**         | Enabling the AI to search and navigate web links.                                   |
+| **Persistent Memory**    | Implementing memory storage to retain previous interactions.                        |
+| **Terminal Integration** | Allowing the AI to execute and interpret terminal commands securely.                |
+| **Code Extraction**      | Extracting critical code snippets from outputs for future use.                      |
+| **Advanced Prompting**   | Utilizing diverse prompts for tasks like payload generation and text summarization. |
 
-3. Safe Terminal Access
-    - Enable the AI to execute terminal commands securely with safeguards to ensure only authorized actions are performed.
+**This is the most comprehensive phase of Project Spectral.** Major updates will be posted [here](https://github.com/phantom0004/Project-Spectral/discussions/1).
 
-4. Comprehensive Features
-Integrate support for multiple hacking phases:
-    - Reconnaissance
-    - Exploitation
-    - Privilege escalation
-    - Post-exploitation
-
-5. Community Contributions
-    - Open the project for community input to refine training, suggest features, and provide testing feedback.
+3. **Community Contributions (❌ Not Implemented Yet)**
+   - **Engagement:** Inviting community input to refine AI training, suggest new features, and provide testing feedback.
 
 ---
 
-## Why Project Spectral❓
+## Development Snippets (Some Sneak Peeks! 👀) 
 
-Project Spectral aims to be more than just a tool—it’s a companion for ethical hackers, designed to empower users by:
+1. **Project Spectral GUI Prototype**
+   
+   <img src="https://github.com/user-attachments/assets/d83f25a6-3ee3-47a1-bcc1-3ff9a9de7be9" alt="Project Spectral GUI Prototype" width="800"/>
 
-- Automating repetitive tasks.
-- Providing intelligent insights during operations.
-- Enhancing productivity in CTFs, pentesting, and offensive security workflows.
-- Delivering seamless terminal execution with built-in safeguards.
+2. **Prompt Engineering with DAN for Programs**
+   
+   <img src="https://github.com/user-attachments/assets/2886419b-ebf9-498c-a5ed-66bda70fc7da" alt="Prompt Engineering with DAN for Programs" width="800"/>
+   
+   *This image does not condone any illegal activity and is shared for showcase purposes only. In production, please act ethically.*
+
+*And more coming soon...*
