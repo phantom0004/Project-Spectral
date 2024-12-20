@@ -1,9 +1,4 @@
-# NOTE: This requirements.txt file is a preliminary draft and subject to change.
-# The listed dependencies are currently in use, but may not be final.
-# Further details and updates will be provided in upcoming releases.
-
-torch
-transformers
-huggingface_hub[torch]
-accelerate
-bitsandbytes
+requests
+beautifulsoup4
+rich
+customtkinter
